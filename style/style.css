@@ -1,0 +1,48 @@
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max width:1200px;
+}
+
+nav img {
+    width: 100px;
+    height: auto;
+    background-color: dimgrey;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav button {
+    padding: 8px 12px;
+    background-color: cornflowerblue;
+}
+nav ul li a:hover{
+    background-color: rgb(104, 100, 94);
+}
+.btn{
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(80, 76, 72);
+    color: black;
+}
+
+nav img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: rgb(160, 160, 48);
+}
