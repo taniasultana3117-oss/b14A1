@@ -276,6 +276,55 @@ nav img:hover {
 .pricing-card .btn{
     width: 100%;
 }
+/* ==========================
+   AI Challenge Section (FAQ)
+========================== */
+
+.faq{
+    background-color: #111827;
+    padding: 80px;
+}
+
+.faq h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.faq-subtitle{
+    color: #d1d5db;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.faq-card{
+    width: 500px;
+    background-color: #1f2937;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.faq-card h3{
+    color: #60a5fa;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.faq-card p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 .footer{
     background-color: #222;
     color: white;
